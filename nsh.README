@@ -1,0 +1,27 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAN PAGE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NAME
+    nsh - a minimal shell
+
+SYNOPSIS
+    ./nsh [SCRIPT]
+
+DESCRIPTION
+    nsh works as a minimal shell that runs basic commands such as cd and 
+    any command that works with the "execvp(3)" syscall.
+
+    Extensions:
+        - changing directories (cd)
+        - multiple piping
+        - I/O redirection (<, >, >>)
+        - can handle multiple arguments
+
+
+OPTIONS
+    SCRIPT
+        The name of a shell script. An optional argument that allows one 
+        to test a script on the nsh shell.
+
+AUTHOR
+    Wayne Hayes(Parser) and Raymond Lee

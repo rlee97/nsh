@@ -1,0 +1,6 @@
+KNOWN BUGS
+    if piping, and one provides a correct command followed by an unknown
+    command, the shell will loop and fail. This bug should be covered under
+    the assignment instructions where it states that "incorrect command lines 
+    are allowed to crash your program without loss of marks on the assignment"
+
